@@ -11,9 +11,9 @@ module.exports = {
       directory: path.resolve(__dirname, 'src', 'database', 'migrations')
     },
     // informações q ja vem prontas por padrão ( Ex: usuário admin )
-    // seeds: {
-    //   directory: path.resolve(__dirname, 'src', 'database', 'seeds')
-    // },
+     seeds: {
+       directory: path.resolve(__dirname, 'src', 'database', 'seeds')
+     },
     useNullAsDefault: true
   },
 
