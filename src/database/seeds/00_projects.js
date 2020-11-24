@@ -13,3 +13,7 @@ exports.seed = function(knex) {
 };
 
 // Seed adiciona um valor Default para a tabela, que existirá antes de qualquer insert
+
+// npx knex seed:make 00_projects
+
+// npx knex seed:run

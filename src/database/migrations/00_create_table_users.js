@@ -8,3 +8,7 @@ exports.up = function (knex) {
 exports.down = function (knex) {
     return knex.schema.dropTable('users')
 };
+
+// npx knex migrate:make create_table_user  -  Cria uma igração
+
+//npx knex migrate:latest  -  Roda a as migrações

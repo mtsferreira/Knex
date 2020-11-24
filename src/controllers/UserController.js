@@ -9,7 +9,7 @@ module.exports = {
         return response.json(results)
     },
 
-    // cria um usuáio
+    // cria um usuário
     async create(request, response) {
         const { username } = request.body;
 

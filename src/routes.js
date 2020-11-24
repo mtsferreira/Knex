@@ -13,5 +13,6 @@ routes
     .delete('/users/:id', UserController.delete)
     // Projects
     .get('/projects', ProjectController.index)
+    .post('/projects', ProjectController.create)
 
 module.exports = routes;
